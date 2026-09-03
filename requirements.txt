@@ -6,6 +6,4 @@ joblib==1.5.3
 matplotlib==3.10.5
 seaborn==0.13.2
 streamlit==1.48.1
-nbformat>=5.10
-nbclient>=0.10
-
+kagglehub>=0.4.3,<2
