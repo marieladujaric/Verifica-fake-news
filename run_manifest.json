@@ -1,0 +1,11 @@
+{
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sklearn": "1.7.1",
+  "pandas": "2.3.3",
+  "joblib": "1.5.3",
+  "seed": 42,
+  "data_path": "C:\\Users\\alpha\\Desktop\\Maestr\u00eda\\015. Text mining\\Tarea\\fake_news_detector\\data\\news.csv",
+  "data_rows": 8000,
+  "model_sha256": "8634f7a8b6aad9690cd05b145b31dfdc81d3c6d301f3c147c14d4db2233033b3"
+}
