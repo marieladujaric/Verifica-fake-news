@@ -15,11 +15,12 @@ BASE = Path(__file__).resolve().parent
 MODEL_PATH = BASE / "models" / "fake_news_model.joblib"
 LOG_PATH = BASE / "monitoring" / "predictions.jsonl"
 
-st.set_page_config(page_title="VerificaIA | Fake News", page_icon="🔎", layout="wide")
+st.set_page_config(
+    page_title="Detector de noticias falsas", page_icon="🔎", layout="wide")
 
 COPY = {
     "Español": {
-        "title": "VerificaIA · Detector de noticias falsas",
+        "title": "Detector de noticias falsas",
         "subtitle": "Evaluación probabilística e interpretable para textos en español e inglés",
         "input": "Pega el título y el cuerpo de la noticia",
         "placeholder": "Escribe o pega aquí la noticia completa…",
@@ -32,7 +33,7 @@ COPY = {
         "scope": "El modelo fue entrenado principalmente con noticias en inglés. Acepta español mediante rasgos de palabras y caracteres, pero necesita validación con un corpus español etiquetado antes de usos críticos.",
     },
     "English": {
-        "title": "VerificaIA · Fake news detector",
+        "title": "Fake news detector",
         "subtitle": "Interpretable probabilistic assessment for Spanish and English text",
         "input": "Paste the headline and article body",
         "placeholder": "Write or paste the full article here…",
